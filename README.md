@@ -17,6 +17,7 @@ This thesis introduces a novel **synthetic dataset** specifically designed for b
 
 This repository has the following structure:
 
+```
 Thesis-Causal-Discovery-In-Exchangeable-Data/
 ├── code/
 │   ├── allfigs/
@@ -50,6 +51,7 @@ Thesis-Causal-Discovery-In-Exchangeable-Data/
 ├── README.md
 ├── requirements.txt
 └── TuebingenAnalysis.xlsx
+```
 
 It is organized into the following main directories:
 
@@ -88,6 +90,7 @@ venv\Scripts\activate      # On Windows
 
 # Install all dependencies
 pip install -r requirements.txt
+```
 
 
 ***
