@@ -15,7 +15,43 @@ This thesis introduces a novel **synthetic dataset** specifically designed for b
 
 ## 📁 Repository Structure
 
-The repository is organized into the following main directories:
+This repository has the following structure:
+
+Thesis-Causal-Discovery-In-Exchangeable-Data/
+├── code/
+│   ├── allfigs/
+│   ├── data/
+│   ├── extra/
+│   ├── generate_scenarios/
+│   ├── generate_txt/
+│   ├── interesting/
+│   ├── predictions/
+│   ├── anm.ipynb
+│   ├── cepairsimplementation.ipynb
+│   ├── cgnn.ipynb
+│   ├── emd.ipynb
+│   ├── exchangeable_synthetic_dataset.zip
+│   ├── igci.ipynb
+│   ├── lingam.ipynb
+│   ├── onehitwonders.ipynb
+│   ├── pnl.ipynb
+│   ├── reci.ipynb
+│   ├── synthetic_nn_keras.ipynb
+│   ├── test_synthetic.ipynb
+│   ├── testing_functions.ipynb
+│   └── testR.R
+├── other implementations/
+│   ├── bqcd/
+│   │   └── bqcd.R
+│   └── slope-0181208/
+│       └── Slope.R
+├── Pairs/
+├── previous_results.xlsx
+├── README.md
+├── requirements.txt
+└── TuebingenAnalysis.xlsx
+
+It is organized into the following main directories:
 
 * **`code/`**: Contains all original code, along with generated data (images and raw results).
 * **`other_implementations/`**:
@@ -35,7 +71,24 @@ In addition to the folders, two key Excel files provide valuable metadata and re
     * `latent examples:`: Provides an example of such a latent variable.
     
 * **`previous_results.xlsx`**: Serves as a logbook for tested methods, detailing the method name, specifications (if any), specific dataset used, and the obtained AUROC and accuracy.
-    
+
+***
+
+## 📦 Requirements and Installation
+
+This repository includes a `requirements.txt` file that specifies all the necessary Python dependencies for running the experiments and analyses.
+
+To install the required packages, first ensure you are using **Python 3.9+** (recommended), then run:
+
+```bash
+# Create and activate a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
+
+# Install all dependencies
+pip install -r requirements.txt
+
 
 ***
 
