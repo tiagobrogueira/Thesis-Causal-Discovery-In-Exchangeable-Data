@@ -80,7 +80,7 @@ In addition to the folders, two key Excel files provide valuable metadata and re
 
 This repository includes a `requirements.txt` file that specifies all the necessary Python dependencies for running the experiments and analyses.
 
-To install the required packages, first ensure you are using **Python 3.9+** (recommended), then run:
+To install the required packages, first ensure you are using **Python 3.11.9** (recommended), then run:
 
 ```bash
 # Create and activate a virtual environment (recommended)
