@@ -1,6 +1,6 @@
-# Causal Discovery in Exchangeable Data
+# Rethinking Causal Discovery Through the Lens of Exchangeability
 
-This repository contains the code and resources associated with the thesis "Causal Discovery in Exchangeable Data," authored by Tiago Brogueira with the support of Prof. Mário Figueiredo, conducted at Instituto de Telecomunicações, Técnico Lisboa, Portugal. This work has led to the submitted paper, "Rethinking Causal Discovery through the lens of Exchangeability," currently under review.
+This repository contains the code and resources associated with the thesis "Causal Discovery in Exchangeable Data," authored by Tiago Brogueira with the support of Prof. Mário Figueiredo, conducted at Instituto de Telecomunicações, Técnico Lisboa, Portugal. This work has led to the submitted paper, "Rethinking Causal Discovery through the Lens of Exchangeability," currently under review.
 
 ***
 
